@@ -144,12 +144,15 @@ nav {
   letter-spacing: 0.06em;
   color: var(--primary-color);
 }
+/*---*/
+.section-sizing {
+  padding-bottom: 94px;
+}
 
 /*advantages section*/
 
 .advantages-section {
   font-size: var(--secondary-font-size);
-  margin-bottom: 50px;
 }
 .hidden-title {
   visibility: hidden;
@@ -176,9 +179,7 @@ nav {
 }
 
 /*our work section*/
-.our-work-section {
-  margin-bottom: 94px;
-}
+
 .section-title {
   font-weight: var(--primary-font-weight);
   font-size: 36px;
@@ -197,7 +198,6 @@ nav {
 .our-team-section {
   font-size: var(--primary-font-size);
   background: var(--secondary-background-color);
-  padding-bottom: 94px;
 }
 .team-list {
   display: flex;
@@ -222,6 +222,9 @@ nav {
   text-align: center;
   color: var(--secondary-text-color);
 }
+.team-member-description {
+  margin: 30px 0;
+}
 
 /*footer*/
 
@@ -233,10 +236,11 @@ footer a:not(.logo):focus {
   color: var(--logo-and-btn-color);
 }
 .footer {
-  padding: 60px 0;
+  padding: 60px 15px;
 }
 .footer-logo {
   color: var(--primary-color);
+  margin-bottom: 20px;
 }
 .footer-logo-color {
   color: var(--logo-and-btn-color);
@@ -249,14 +253,15 @@ footer a:not(.logo):focus {
   font-size: var(--secondary-font-size);
   font-weight: var(--secondary-font-weight);
 }
+.contact-info-list:not(:last-child) {
+  margin-bottom: 9px;
+}
 .address-link {
   color: var(--primary-color);
 }
 
 /* portfolio.html styles */
-.filter-section {
-  padding-bottom: 50px;
-}
+
 .filter {
   display: flex;
   flex-direction: row;
@@ -304,4 +309,7 @@ footer a:not(.logo):focus {
   line-height: 1.9;
   color: var(--secondary-text-color);
   padding: 0 24px;
+}
+.box-text {
+  margin: 30px 0;
 }
