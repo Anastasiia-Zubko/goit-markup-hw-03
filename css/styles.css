@@ -134,7 +134,7 @@ nav {
 }
 .order-btn {
   background: var(--logo-and-btn-color);
-  margin: 30px 500px 100px 500px;
+  margin: 30px 500px 200px 500px;
   width: 200px;
   height: 50px;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
@@ -152,6 +152,7 @@ nav {
 /*advantages section*/
 
 .advantages-section {
+  padding-top: 94px;
   font-size: var(--secondary-font-size);
 }
 .hidden-title {
@@ -255,7 +256,6 @@ footer a {
   line-height: 1.7;
   font-size: var(--secondary-font-size);
   font-weight: var(--secondary-font-weight);
-  margin-top: 0;
 }
 .contact-info-list li:not(:last-child) {
   margin-bottom: 9px;
