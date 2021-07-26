@@ -109,11 +109,15 @@ nav {
   padding: 32px 25px;
 }
 
+/*---*/
+.section-sizing {
+  padding-bottom: 94px;
+}
+
 /*section hero*/
 
 .section-hero {
   background: var(--primary-background-color);
-  margin-bottom: 50px;
 }
 .main-header {
   font-weight: 900;
@@ -130,7 +134,7 @@ nav {
 }
 .order-btn {
   background: var(--logo-and-btn-color);
-  margin: 30px 500px 200px 500px;
+  margin: 30px 500px 100px 500px;
   width: 200px;
   height: 50px;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
@@ -143,10 +147,6 @@ nav {
   text-align: center;
   letter-spacing: 0.06em;
   color: var(--primary-color);
-}
-/*---*/
-.section-sizing {
-  padding-bottom: 94px;
 }
 
 /*advantages section*/
@@ -235,6 +235,9 @@ footer a:not(.logo):hover,
 footer a:not(.logo):focus {
   color: var(--logo-and-btn-color);
 }
+footer a {
+  display: inline-block;
+}
 .footer {
   padding: 60px 15px;
 }
@@ -252,8 +255,9 @@ footer a:not(.logo):focus {
   line-height: 1.7;
   font-size: var(--secondary-font-size);
   font-weight: var(--secondary-font-weight);
+  margin-top: 0;
 }
-.contact-info-list:not(:last-child) {
+.contact-info-list li:not(:last-child) {
   margin-bottom: 9px;
 }
 .address-link {
