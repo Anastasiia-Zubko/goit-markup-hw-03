@@ -256,6 +256,8 @@ footer a {
   line-height: 1.7;
   font-size: var(--secondary-font-size);
   font-weight: var(--secondary-font-weight);
+  margin-bottom: 0;
+  margin-top: 0;
 }
 .contact-info-list li:not(:last-child) {
   margin-bottom: 9px;
